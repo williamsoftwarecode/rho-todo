@@ -21,4 +21,4 @@ It is ready for deployment on Heroku through Git.
 Two files need to be configured before use: 
 1. server.js - This app assumes MongoDB will be used as the default database. Configure the connection URI to the selected database. 
 2. issue.service.ts - Configure the URI to point to the website. 
-
+3. package.json - Rename "name" accordingly.
