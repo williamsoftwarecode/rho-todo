@@ -75,10 +75,10 @@ app.use('/', router);
 // app.listen(4000, () => console.log(`Express server running on port 4000`));
 
 // Serve only the static files form the dist directory
-app.use(express.static(__dirname + '/dist/frontend'));
+app.use(express.static(__dirname + '/dist/<insert-name-of-app-here>'));
 
 app.get('/*', function(req,res) {
-    res.sendFile(path.join(__dirname+'/dist/frontend/index.html'));
+    res.sendFile(path.join(__dirname+'/dist/insert-name-of-app-here/index.html'));
 });
 
 // Start the app by listening on the default Heroku port
