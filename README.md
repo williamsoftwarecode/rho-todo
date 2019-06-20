@@ -18,7 +18,8 @@ It is ready for deployment on Heroku through Git.
 
 ## Configuration
 
-Two files need to be configured before use: 
-1. server.js - This app assumes MongoDB will be used as the default database. Configure the connection URI to the selected database. 
-2. issue.service.ts - Configure the URI to point to the website. 
-3. package.json - Rename "name" accordingly.
+The following files need to be configured before use: 
+1. server.js (Database) - This app assumes MongoDB will be used as the default database. Configure the connection URI to the selected database. 
+2. server.js (Routing) - Configure routes by specifying dist directory where Angular app will be built. 
+3. issue.service.ts - Configure the URI to point to the website. 
+4. package.json - Rename "name" accordingly.
