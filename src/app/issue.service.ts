@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class IssueService {
 
-  uri = 'http://rhky.herokuapps.com';
+  uri = 'http://rhky.herokuapp.com';
 
   constructor(private http: HttpClient) {
   }
